@@ -1,0 +1,132 @@
+
+.footer {
+  background: linear-gradient(135deg, #06425C 0%, #3b3f45 50%, #4b4f55 100%);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.acs_footer {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 30px;
+}
+
+.footer_section {
+  max-width: 280px;
+}
+
+.footer_section h4 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  border-bottom: 2px solid #61dafb;
+  padding-bottom: 5px;
+}
+
+.footer_section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_section ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  transition: color 0.3s;
+}
+
+.footer_section ul li:hover {
+  color: #61dafb;
+}
+
+
+.footer_section address {
+  font-style: normal;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.footer_section address a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.footer_section address a:hover {
+  text-decoration: underline;
+}
+.social_links {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social_links i {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 18px;
+  width: 60px; 
+  height: 60px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+
+.social_links i:hover {
+  background-color: #06425C; 
+  color: white; 
+  transform: scale(1.1); 
+}
+
+.map_container {
+  margin-top: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid white;
+  padding-top: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+  color: white;
+}
+
+.social_links{
+  margin-left: 50px;
+  margin-top: 70px;
+  gap: 30px;
+ 
+
+}
+
+@media (max-width: 768px) {
+  .acs_footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+}

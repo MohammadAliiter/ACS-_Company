@@ -1,0 +1,38 @@
+.ind-main-class {
+    padding: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .ind-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .industry-card {
+    border: 1px solid  #06425C;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .industry-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .industry-col {
+    margin-bottom: 20px;
+  }
+
+  @media (max-width : 600px) {
+    .ind-main-class {
+          margin-top: 10%;
+    }
+  }
+
+  @media  (max-width: 1080px) {
+    .ind-main-class {
+      margin-top: 10%;
+}
+  }
+  
