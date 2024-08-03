@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
-import "./Sec1.css";
-import Image from "../../Image/Image.webp";
-import FormData from "../../globalComponent/Form/FormData"; // Make sure the path is correct
+import './Sec1.css';
+import Image from '../../Image/Image.webp';
+import FormData from '../../globalComponent/Form/FormData'; 
 
 function Sec1() {
   const [isVisible, setIsVisible] = useState(false);
@@ -40,12 +40,8 @@ function Sec1() {
     <>
       <div ref={containerRef} className={`acs_main_container ${isVisible ? 'visible' : ''}`}>
         <div className='text_container'>
-          <h1>
-            Ready to Embrace New Opportunities and Thrive?
-          </h1>
-          <p>
-            Every great partnership starts with a conversation. Let's begin ours.
-          </p>
+          <h1>Ready to Embrace New Opportunities and Thrive?</h1>
+          <p>Every great partnership starts with a conversation. Let's begin ours.</p>
           <Button onClick={handleShowModal}>Register Here</Button>
         </div>
         <div className='image_container'>

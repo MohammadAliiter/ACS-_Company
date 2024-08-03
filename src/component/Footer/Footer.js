@@ -49,9 +49,15 @@ function Footer() {
         <div className='footer_section'>
           <h4>Follow Us</h4>
           <div className='social_links'>
-            <i className="fab fa-facebook-f" title="Facebook"></i>
-            <i className="fab fa-instagram" title="Instagram"></i>
-            <i className="fab fa-youtube" title="YouTube"></i>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <i className="fab fa-facebook-f" title="Facebook"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <i className="fab fa-instagram" title="Instagram"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <i className="fab fa-youtube" title="YouTube"></i>
+            </a>
           </div>
 
           <div className='map_container'>
@@ -62,6 +68,7 @@ function Footer() {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              title="ACS Consulting Location"
             ></iframe>
           </div>
         </div>
@@ -69,7 +76,7 @@ function Footer() {
 
       <div className='footer-bottom'>
         <p>
-          <a href='#'>Privacy & Cookie Policy</a> | <a href='#'>Terms of Services</a>
+          <a href='/privacy-policy'>Privacy & Cookie Policy</a> | <a href='/terms-of-services'>Terms of Services</a>
         </p>
         <p>© 2023 ACS Consulting. All Rights Reserved.</p>
       </div>
